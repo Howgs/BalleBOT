@@ -1,42 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+* { /*Reset CSS*/
+    margin: 0; /*Margem exterior*/
+    padding: 0; /*Margem da tag pro conteudo dela*/
+    box-sizing: border-box; /*usada para anular os limites da box*/
+    text-decoration: none; /* Anular qualquer decoração padrão*/
+} 
 
 body{
-    font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-size: 100%; /* Tamanho da Fonte*/
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); /*Cor de fundo*/
 }
 .cabecalho {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-around;
+display: flex; /*Flexbox*/
+flex-direction: row; /*Direção, no caso "ROW" = Em linha */
+align-items: center; /*Alinhamento*/
+justify-content: space-around; /*Distancia generalizada do itens*/
 padding: 24px;
 }
 .cabecalho-imagem {
-    height: 72px;
+    height: 72px; /*ALTURA*/
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 32px;
+    gap: 32px; /*Distancia entre os itens*/
 }
 
 .cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px;
+    font-family: 'Sarala', sans-serif; /*fonte*/
+    color: #FFF2E7; /*Cor*/
+    font-weight: 400; /*Espessura da Fonte*/
+    font-size: 18px; /*Tamanho da Fonte*/
 }
 
 .conteudo {
-    margin-bottom: 48px;
-    border-top: 0.4px solid #FFF2E7;
+    border-top: 0.4px solid #FFF2E7; /*Borda do topo*/
+    margin-bottom: 48px; /*Margem inferior*/
 }
 
 .conteudo-principal {
@@ -68,11 +68,11 @@ padding: 24px;
 
 .conteudo-principal-escrito-botao {
     background-color:#ECD6C4;
-    Width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    Width: 180px; /*Largura*/
+    height: 60px; /*Altura*/
+    border: none;  /*Borda*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /*Caixa de Sombra*/
+    border-radius: 20px; /*Raio da Borda/Curva dos cantos*/
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -80,7 +80,7 @@ padding: 24px;
 }
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
-}
+} /*Efeito de quando passa o mouse por cima do botão*/
 
 .conteudo-principal-imagem {
     height: 430px;
@@ -91,12 +91,12 @@ padding: 24px;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    margin-top: 48px;
+    margin-top: 48px; /*Margem do topo*/
 }
 
 .conteudo-secundario-titulo {
     border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
+    padding-top: 48px; /*padding do topo*/
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
